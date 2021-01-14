@@ -34,3 +34,20 @@ function App(){
     )
 }
 
+function signIn(){
+    return(
+        <button onClick={signInWithGoogle}> Sign In with GMAIL </button>
+    )
+}
+
+function signOut(){
+    return auth.currentUser && (
+
+    )
+}
+
+function room(){
+
+}
+
+export default App;
